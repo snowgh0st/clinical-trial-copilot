@@ -1,7 +1,7 @@
 /**
  * frontend/src/App.tsx
  */
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { api } from './services/api';
 import type { EHRProcessingResponse, TrialMatchResponse } from './services/api';
 import { EHRInputForm } from './components/EHRInputForm';

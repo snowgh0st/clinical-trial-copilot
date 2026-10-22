@@ -2,7 +2,7 @@
  * frontend/src/components/EHRInputForm.tsx
  */
 import React, { useState } from 'react';
-import { FileText, Code, Upload, Sparkles, Loader2 } from 'lucide-react';
+import { FileText, Code, Sparkles, Loader2 } from 'lucide-react';
 
 interface EHRInputFormProps {
   onSubmitNote: (note: string) => Promise<void>;
