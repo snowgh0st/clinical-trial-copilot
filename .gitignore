@@ -13,3 +13,6 @@ frontend/.next/
 *.bin
 *.onnx
 *.pt
+
+# Distribution / Packaging
+*.egg-info/
